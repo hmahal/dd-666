@@ -16,7 +16,7 @@ class India extends CI_Controller{
     // what will this reference?
     public function index() {
         // what will this reference?
-        $source = '../../public/assets/images/logo.png'; 
+        $source = '../data/logo.png'; 
         // note that we could have referenced an image anywhere on our system
 
         // set the mime type for that image (jpeg, png, etc)
